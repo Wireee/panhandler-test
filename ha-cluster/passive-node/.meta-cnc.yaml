@@ -82,10 +82,10 @@ variables:
     default: choices
     type_hint: dropdown
     dd_list:
-      - key: yes
-        value: yes
-      - key: no
-        value: no
+      - key: "yes"
+        value: "yes"
+      - key: "no"
+        value: "no"
 
 # ---------------------------------------------------------------------
 # end of variables section
