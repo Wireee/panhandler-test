@@ -53,6 +53,7 @@ variables:
 # There is a variable called snippets that we can use to auto-generate this section for us
 snippets:
     - name: panos-hostname
+      cmd: set
       file: test-hostname.json
 
 # ---------------------------------------------------------------------
