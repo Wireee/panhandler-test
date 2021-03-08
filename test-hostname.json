@@ -1,8 +1,0 @@
-[
-  {
-    "name": "hostname-556537",
-    "xpath": "/config/devices/entry[@name=\"localhost.localdomain\"]/deviceconfig/system",
-    "element": "<hostname>{{ hostname }}</hostname>",
-    "full_xpath": "./devices/entry[@name=\"localhost.localdomain\"]/deviceconfig/system/hostname"
-  }
-]
