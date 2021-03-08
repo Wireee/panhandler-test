@@ -55,6 +55,7 @@ snippets:
     - name: panos-hostname
       cmd: set
       file: test-hostname.json
+      xpath: /config/devices/entry[@name=\"localhost.localdomain\"]/deviceconfig/system
 
 # ---------------------------------------------------------------------
 # end of snippets section
