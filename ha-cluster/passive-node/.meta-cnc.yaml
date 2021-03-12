@@ -103,10 +103,13 @@ snippets:
       cmd: set
       file: hostname_config.json
       xpath: /config/devices/entry[@name="localhost.localdomain"]/deviceconfig/system
-    - name: networks_interfaces
-      cmd: set
-      file: networks_interfaces.json
-      xpath: /config/devices/entry[@name="localhost.localdomain"]/network/interface/ethernet
-
+#    - name: networks_interfaces
+#      cmd: set
+#      file: networks_interfaces.json
+#      xpath: /config/devices/entry[@name="localhost.localdomain"]/network/interface/ethernet
+#    - name: ha_passive
+#      cmd: set
+#      file: ha_passive.json
+#      xpath: /config/devices/entry[@name="localhost.localdomain"]/deviceconfig
 # ---------------------------------------------------------------------
 # end of snippets section
