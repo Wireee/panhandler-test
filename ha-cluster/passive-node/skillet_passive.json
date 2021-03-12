@@ -28,11 +28,5 @@
       "xpath": "/config/devices/entry[@name=\"localhost.localdomain\"]/deviceconfig",
       "element": "<high-availability>          <interface>            <ha1>              <ip-address>{{ h1_ip }}</ip-address>              <netmask>255.255.255.252</netmask>              <encryption>                <enabled>{{ encryption }}</enabled>              </encryption>            </ha1>            <ha1-backup>              <port>{{ interface_h1_backup }}</port>              <ip-address>{{ h1_backup_ip }}</ip-address>              <netmask>255.255.255.252</netmask>            </ha1-backup>            <ha2/>            <ha2-backup>              <port>{{ interface_h2_backup }}</port>            </ha2-backup>            <ha3/>          </interface>          <group>            <group-id>2</group-id>            <peer-ip>{{ h1_remote_ip }}</peer-ip>            <peer-ip-backup>{{ h1_remote_backup_ip }}</peer-ip-backup>            <election-option>              <preemptive>yes</preemptive>              <timers>                <recommended/>              </timers>              <device-priority>50</device-priority>            </election-option>          </group>          <enabled>yes</enabled>        </high-availability>",
       "full_xpath": "./devices/entry[@name=\"localhost.localdomain\"]/deviceconfig/high-availability"
-    },
-    {
-      "name": "import-815087",
-      "xpath": "/config/devices/entry[@name=\"localhost.localdomain\"]/vsys/entry[@name=\"vsys1\"]",
-      "element": "<import>            <network>              <interface/>            </network>          </import>",
-      "full_xpath": "./devices/entry[@name=\"localhost.localdomain\"]/vsys/entry[@name=\"vsys1\"]/import"
     }
 ]  
