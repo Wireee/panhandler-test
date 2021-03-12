@@ -101,7 +101,7 @@ variables:
 snippets:
     - name: hostname_config
       cmd: set
-      file: hostname_config.json
+      file: hostname_config.xml
       xpath: /config/devices/entry[@name="localhost.localdomain"]/deviceconfig/system
     - name: networks_interfaces
       cmd: set
