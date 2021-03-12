@@ -99,10 +99,17 @@ variables:
 
 # There is a variable called snippets that we can use to auto-generate this section for us
 snippets:
-    - name: skillet_passive
+    - name: hostname_config
       cmd: set
-      file: skillet_passive.json
+      file: hostname_config.json
+      xpath: /config/devices/entry[@name="localhost.localdomain"]/deviceconfig/system
+    - name: hostname_config
+      cmd: set
+      file: networks_interfaces.json
+      xpath: /config/devices/entry[@name=\"localhost.localdomain\"]/network/interface/ethernet
+    - name: ha_passive
+      cmd: set
+      file: ha_passive.json
       xpath: /config/devices/entry[@name="localhost.localdomain"]/deviceconfig
-
 # ---------------------------------------------------------------------
 # end of snippets section
