@@ -106,7 +106,7 @@ snippets:
     - name: networks_interfaces
       cmd: set
       file: networks_interfaces.json
-      xpath: /config/devices/entry[@name="localhost.localdomain"]/network/interface/ethernet
+      xpath: /config/devices/entry[@name="localhost.localdomain"]/network/interface
 #    - name: ha_passive
 #      cmd: set
 #      file: ha_passive.json
