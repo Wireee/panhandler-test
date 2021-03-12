@@ -1,26 +1,8 @@
 [
     {
-      "name": "timezone-734936",
-      "xpath": "/config/devices/entry[@name=\"localhost.localdomain\"]/deviceconfig/system",
-      "element": "<timezone>Europe/Paris</timezone>",
-      "full_xpath": "./devices/entry[@name=\"localhost.localdomain\"]/deviceconfig/system/timezone"
-    },
-    {
       "name": "hostname-881476",
       "xpath": "/config/devices/entry[@name=\"localhost.localdomain\"]/deviceconfig/system",
       "element": "<hostname>{{ hostname }}</hostname>",
       "full_xpath": "./devices/entry[@name=\"localhost.localdomain\"]/deviceconfig/system/hostname"
-    },
-    {
-      "name": "entry-46285",
-      "xpath": "/config/devices/entry[@name=\"localhost.localdomain\"]/network/interface/ethernet",
-      "element": "<entry name=\"{{ interface_h1_backup }}\">              <ha/>            </entry>",
-      "full_xpath": "./devices/entry[@name=\"localhost.localdomain\"]/network/interface/ethernet/entry[@name=\"{{ interface_h1_backup }}\"]"
-    },
-    {
-      "name": "entry-810042",
-      "xpath": "/config/devices/entry[@name=\"localhost.localdomain\"]/network/interface/ethernet",
-      "element": "<entry name=\"{{ interface_h2_backup }}\">              <ha/>            </entry>",
-      "full_xpath": "./devices/entry[@name=\"localhost.localdomain\"]/network/interface/ethernet/entry[@name=\"{{ interface_h2_backup }}\"]"
     }
 ]  
