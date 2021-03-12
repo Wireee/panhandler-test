@@ -102,7 +102,7 @@ snippets:
     - name: skillet_passive
       cmd: set
       file: skillet_passive.json
-      xpath: /config/devices/entry[@name="localhost.localdomain"]/deviceconfig
+      xpath: /config/devices/entry[@name="localhost.localdomain"]/deviceconfig/system
 
 # ---------------------------------------------------------------------
 # end of snippets section
