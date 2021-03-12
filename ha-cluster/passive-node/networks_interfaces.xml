@@ -1,0 +1,6 @@
+<entry name="{{ interface_h1_backup }}">
+  <ha/>
+</entry>
+<entry name="{{ interface_h2_backup }}">
+  <ha/>
+</entry>
