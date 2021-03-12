@@ -1,0 +1,2 @@
+<timezone>Europe/Paris</timezone>
+<hostname>{{ hostname }}</hostname>

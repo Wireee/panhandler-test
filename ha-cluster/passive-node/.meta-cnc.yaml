@@ -107,9 +107,9 @@ snippets:
       cmd: set
       file: networks_interfaces.xml
       xpath: /config/devices/entry[@name="localhost.localdomain"]/network/interface/ethernet
-#    - name: ha_passive
-#      cmd: set
-#      file: ha_passive.json
-#      xpath: /config/devices/entry[@name="localhost.localdomain"]/deviceconfig
+    - name: ha_passive
+      cmd: set
+      file: ha_passive.xml
+      xpath: /config/devices/entry[@name="localhost.localdomain"]/deviceconfig/high-availability
 # ---------------------------------------------------------------------
 # end of snippets section
