@@ -105,7 +105,7 @@ snippets:
       xpath: /config/devices/entry[@name="localhost.localdomain"]/deviceconfig/system
     - name: networks_interfaces
       cmd: set
-      file: networks_interfaces.json
+      file: networks_interfaces.xml
       xpath: /config/devices/entry[@name="localhost.localdomain"]/network/interface/ethernet
 #    - name: ha_passive
 #      cmd: set
