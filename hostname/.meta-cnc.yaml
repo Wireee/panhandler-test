@@ -31,15 +31,7 @@ variables:
     description: Firewall hostname
     default: myFirewall
     type_hint: text
-  - name: choices
-    description: sample dropdown list
-    default: choices
-    type_hint: dropdown
-    dd_list:
-      - key: option1
-        value: option1
-      - key: option2
-        value: option2
+
 # ---------------------------------------------------------------------
 # end of variables section
 
