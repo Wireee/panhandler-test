@@ -133,7 +133,7 @@ snippets:
         <high-availability>
                   <interface>
                     <ha1>
-                      <ip-address>{{ ip_h1 }}</ip-address>
+                      <ip-address>{{ h1_ip }}</ip-address>
                       <netmask>255.255.255.252</netmask>
                     </ha1>
                     <ha1-backup>
