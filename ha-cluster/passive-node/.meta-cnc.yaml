@@ -152,7 +152,7 @@ snippets:
                     <peer-ip>{{ h1_remote_ip }}</peer-ip>
                     <peer-ip-backup>{{ h1_remote_backup_ip }}</peer-ip-backup>
                     <election-option>
-                      <device-priority>50</device-priority>
+                      <device-priority>100</device-priority>
                       <timers>
                         <recommended/>
                       </timers>
