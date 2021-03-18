@@ -64,8 +64,8 @@ variables:
         value: ethernet1/2
       - key: ethernet1/3
         value: ethernet1/3
-      - key: ethernet1/4
-        value: ethernet1/4
+      - key: ethernet1/11
+        value: ethernet1/11
   - name: interface_h2_backup
     description: Interface de secours H2
     default: choices
@@ -79,8 +79,8 @@ variables:
         value: ethernet1/2
       - key: ethernet1/3
         value: ethernet1/3
-      - key: ethernet1/4
-        value: ethernet1/4
+      - key: ethernet1/12
+        value: ethernet1/12
   - name: preemption
     description: Préemption
     default: choices
