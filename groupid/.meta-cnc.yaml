@@ -1,0 +1,71 @@
+# skillet preamble information used by panhandler
+# ---------------------------------------------------------------------
+# unique snippet name
+name: haskillet
+# label used for menu selection
+label: ha_skillet
+description: buiild a HA
+
+# type of device configuration
+# common types are panorama, panos, and template
+# https://github.com/PaloAltoNetworks/panhandler/blob/develop/docs/metadata_configuration.rst
+type: panos
+# preload static or default-based templates
+extends:
+
+# grouping of like snippets for dynamic menu creation in panhandler
+labels:
+  collection:
+    - Axians
+
+# ---------------------------------------------------------------------
+# end of preamble section
+
+# variables section
+# ---------------------------------------------------------------------
+# variables used in the configuration templates
+# type_hint defines the form field used by panhandler
+# type_hints can be text, ip_address, or dropdown
+variables:
+  - name: group_id
+    description: group id
+    default: choices
+    type_hint: dropdown
+    dd_list:
+      - key: groupid1
+        value: 1
+      - key: groupid2
+        value: 2
+# ---------------------------------------------------------------------
+# end of variables section
+
+# snippets section
+# ---------------------------------------------------------------------
+# snippets used for api configuration including xpath and element as file name
+# files will load in the order listed
+# NOTE: The following snippets are auto-generated and ordered automatically.
+# Changing the content of the snippet may be necessary, but do NOT change the order
+
+# There is a variable called snippets that we can use to auto-generate this section for us
+snippets:
+
+  - name: high-availability-158679
+    xpath: /config/devices/entry[@name="localhost.localdomain"]/deviceconfig
+    element: |-
+        <high-availability>
+                  <interface>
+                    <ha1/>
+                    <ha1-backup/>
+                    <ha2/>
+                    <ha2-backup/>
+                    <ha3/>
+                  </interface>
+                  <group>
+                    <group-id>{{ group_id }}</group-id>
+                  </group>
+                  <enabled>yes</enabled>
+                </high-availability>
+
+
+# ---------------------------------------------------------------------
+# end of snippets section
